@@ -10,7 +10,7 @@
   "scripts": {
     "start": "serve build",
     "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production && cp src/_redirects build/"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",

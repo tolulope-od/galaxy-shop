@@ -55,7 +55,6 @@ const StoreItem = ({ name, model, type, cost_in_credits, url, ...rest }) => {
             <Link
               to={`/${url.split(baseURL)[1]}`}
               className="btn btn-outline-dark me-md-2"
-              type="button"
               state={{
                 item: {
                   ...rest,

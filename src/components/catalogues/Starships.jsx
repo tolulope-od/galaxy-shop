@@ -243,7 +243,6 @@ const Starships = ({
       {path === '/' ? (
         <Link
           className="btn btn-primary"
-          type="button"
           to={`/${catalogue}`}
         >
           View more {catalogue}
